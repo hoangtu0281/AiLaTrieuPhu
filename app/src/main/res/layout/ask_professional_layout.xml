@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:minWidth="250dp"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="330dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/atp__activity_player_layout_help_call_audience_background"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/iv_bacsi"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/atp__activity_player_layout_help_call_01" />
+
+                    <TextView
+                        android:id="@+id/tv_bacsi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:paddingLeft="15dp"
+                        android:text="Bác sĩ"
+                        android:textSize="17sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="66dp"
+
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/iv_kisu"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/atp__activity_player_layout_help_call_03" />
+
+                    <TextView
+                        android:id="@+id/tv_kisu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:paddingLeft="15dp"
+                        android:text="Kĩ sư"
+                        android:textSize="17sp" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/iv_giaovien"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/atp__activity_player_layout_help_call_02" />
+
+                    <TextView
+                        android:id="@+id/tv_giaovien"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:paddingLeft="10dp"
+                        android:text="Giáo viên"
+                        android:textSize="17sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="58dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/iv_phongvien"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/atp__activity_player_layout_help_call_04" />
+
+                    <TextView
+                        android:id="@+id/tv_phongvien"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:paddingLeft="2dp"
+                        android:text="Phóng viên"
+                        android:textSize="17sp" />
+                </LinearLayout>
+            </TableRow>
+
+            <Button
+                android:id="@+id/btn_call_helper_dong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/atp__btn_template"
+                android:text="Đóng"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/atp__activity_player_layout_help_call_title_background" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="Ý kiến chuyên gia"
+            android:textColor="@android:color/black"
+            android:textSize="17sp" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
